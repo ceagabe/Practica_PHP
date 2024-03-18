@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./imagenes/th.jpeg" width="50" alt="Logo">
+            <a href="index.html">Home</a>
+            <a href="registro.html">Registro</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Registro y sugerencias</h2>
+        <form action="show-data.html" method="">
+            <fieldset>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" required>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" required>
+                <br>
+                <br>
+                <label for="mail">Mail: </label>
+                <input type="email" name="mail" id="mail" pattern="*@*">
+                <br>
+                <br>
+                <label for="password">Clave</label>
+                <input type="password" name="password" id="password" pattern="!*">
+                <br>
+                <hr>
+                <p>Comentarios</p>
+                <textarea name="sugerencias" id="sugerencias" cols="100" rows="10"></textarea>
+                <br>
+                <input type="submit" value="enviar">
+                <input type="button" value="Reset">
+            </fieldset>
+        </form>
+
+    </main>
+    <hr>
+    <footer>
+        <p>Realizado por GABE</p>
+        <a href="mailto:gabriel_benedetti@hotmail.com">Mail</a>
+    </footer>
+
+</body>
+
+</html>
